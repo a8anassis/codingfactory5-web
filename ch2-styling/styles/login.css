@@ -1,0 +1,84 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 30%;
+    margin: 10px auto;
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.middle {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    /* text-align: center; */
+    min-height: 400px;
+}
+
+.top-gap {
+    margin-top: 15px;
+}
+
+.pad-y {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.login-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+.text-grey {
+    color: #bcbdbd;
+}
+
+/* .form-input::placeholder {
+    color: #fff;
+} */
+
+.form-input {
+    width: 70%;
+    height: 40px;
+    background-color: #F7E3E3;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 1.1rem;
+}
+
+.form-btn {
+    width: 70%;
+    padding: 30px;
+    border-radius: 10px;
+    /* color: #fff; */
+    background-color: cornflowerblue;
+    font-size: 1.2rem;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+input[type="password"]:valid + span::after {
+    content: '\2713';
+    font-size: 20px;
+    color: green;
+    position: absolute;
+   
+    top: 50%;
+    border: 1px solid black;
+    transform: translateY(-50%);
+    margin-left: 10px;
+} 
+
+.fg-white {
+    color: #FFF;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Στοιχεία Εισαγωγής</title>
+</head>
+<body>
+    <h1></h1>
+    <form>
+        <div>
+            <label for="firstname" class="titles">Όνομα</label>
+            <input type="text" name="firstname" id="firstname"    placeholder="Εισάγετε όνομα" focus />
+        </div>
+        <div>
+            <label for="lastname" class="titles">Επώνυμο</label>
+            <input type="text" name="lastname" id="lastname"    placeholder="Εισάγετε επώνυμο" />
+        </div>
+        <div>
+            <label for="">Προϊόντα</label>
+            <input type="checkbox" name="products" id="milk" value="milk">
+            <label for="milk">Milk</label>
+            
+            <input type="checkbox" name="products" id="oranges" value="oranges">
+            <label for="oranges">Oranges</label>
+            
+            <input type="checkbox" name="products" id="honey" value="honey">
+            <label for="honey">Honey</label>    
+        </div>
+        <div>
+            <label class="titles" for="">Χρώματα</label>
+            
+            <input type="radio" name="colors" id="black" value="000">
+            <label for="black">Black</label>
+
+            <input type="radio" name="colors" id="red" value="100">
+            <label for="red">Red</label>
+
+            <input type="radio" name="colors" id="green" value="010">
+            <label for="green">Green</label>
+        </div>  
+        <div">
+            <label class="titles" for="cert">Πτυχίο</label>
+            <select name="cert" id="cert">
+                <option value="bsc">BSc</option>
+                <option value="msc">MSc</option>
+                <option value="phd">PhD</option>
+            </select>
+        </div>        
+        <div>
+            <input type="date">
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>
