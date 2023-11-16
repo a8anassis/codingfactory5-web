@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign In</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="middle">
+            <div class="top-gap pad-y">
+                <span class="login-text text-grey"><strong>Login</strong></span>
+            </div>
+            <form>
+                <div class="top-gap">
+                    <input id="username" type="text" class="form-input" required placeholder="Username">
+                </div>
+                <div class="top-gap password-wrapper">
+                    <input id="password" type="password" class="form-input" minlength="8" required placeholder="Password">
+                    <span></span>
+                </div>
+                <div class="top-gap">
+                    <input id="btn" type="submit" class="form-btn fg-white" value="Sign In">
+                </div>
+            </form>
+            <div class="top-gap">
+                <a href="#">Lost your password</a>
+            </div>
+        </div> 
+        <div class="top-gap">
+            <span class="fg-white">Don't have an account? Create one </span><a href="#">here</a>
+        </div>
+    </div>
+</body>
+</html>
