@@ -1,0 +1,9 @@
+body {
+    background-color: red;
+}
+
+@media all {
+    body {
+        background-color: grey;
+    }
+}

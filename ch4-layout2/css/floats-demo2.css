@@ -1,0 +1,59 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 50%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 120px;
+    border: 1px solid black;
+    background-color: rgb(143, 182, 206);
+}
+
+.container {
+    overflow: hidden;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+.aside {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(200, 150, 150);
+}
+
+.main {
+    float: left;
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(150, 180, 120);
+}
+
+.footer-item {
+    float: left;
+    height: 100px;
+    width: 30%;
+    margin: 10px 1.5%;
+    border: 1px solid black;
+    background-color: rgb(250, 250, 140);
+}
+
+.footer {
+    overflow: hidden;
+    clear: both;
+    /* min-height: 150px; */
+    border: 1px solid black;
+    background-color: rgb(143, 143, 200);
+}
