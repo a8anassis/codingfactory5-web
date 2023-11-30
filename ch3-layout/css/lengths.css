@@ -1,0 +1,10 @@
+.header {
+    height: 200px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.aueb-img > img {
+    width: 1000px;
+    height: calc(90vh - 200px);
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(95, 95, 34);
+    transform-origin: right bottom;
+    transition: transform 2s ease-out;
+}
+
+.box1:hover {
+    width: 700px;
+    /* transform: scale(3); */
+    /* transform: rotate(180deg); */
+    /* transform: translate(0, 400px); */
+    /* transform: skewX(-90deg); */
+    transform: scale(3) rotate(180deg) translate(0, 400px) skewX(-90deg);
+}

@@ -1,0 +1,16 @@
+p {
+    color: red;
+}
+
+#auebText {
+    color: yellow;
+}
+
+.aueb-text {
+    color: red;
+}
+
+/* Το !important έχει το υψηλότερο specificity */
+p {
+    color: green!important;
+}

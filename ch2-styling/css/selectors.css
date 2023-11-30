@@ -1,0 +1,24 @@
+* {
+    margin: 10px 2px;
+}
+
+/* .container {
+    background-color: gray;
+} */
+
+.container > h2:first-of-type {
+    font-size: 24px;
+}
+
+.container > p:first-of-type {
+    color: red;
+}
+
+.courses-list > li:first-child {
+    font-weight: bold;
+}
+
+.courses-list > li:nth-child(3) {
+    color: green;
+}
+

@@ -1,0 +1,6 @@
+p {
+    width: 50px;
+    border: 1px solid black;
+    font-size: 200%;
+    overflow: auto;
+}

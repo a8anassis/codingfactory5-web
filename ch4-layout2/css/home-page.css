@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #762124;
+}
+
+.logo {
+    /* float: left; */
+}
+
+.logo > img {
+    width: auto;
+    height: 120px;
+    /* vertical-align: middle; */
+}
+
+.navbar {
+    width: 650px;
+}
+
+/* .nav {
+    float: left;
+    width: 560px;
+    margin-left: 35px;
+    margin-right: 35px;
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    list-style: none;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.nav > li:last-of-type {
+    margin-right: 155px;;
+}
+
+.nav a:active {
+    background-color: cornflowerblue;
+}
+
+.nav > li:not(:first-child) > a:hover,
+.nav > li:not(:first-child) > a:focus
+ {
+    background-color: white; 
+    color: #762124;
+    transition: all 0.4s;
+}
+
+.dropdown {
+    position: relative;
+    /* font-size: 1.2rem; */
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    padding-top: 50px;
+    background-color: rgb(29, 92, 92);
+    width: 120px;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dropdown-content  > li {
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+}
+
+.dropdown-content > li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown-content a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.1rem;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(45, 99, 81);
+}
+
+.dropdown > a {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown:hover > .dropdown-content {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.home-img {
+    overflow: hidden;
+    height: calc(97vh - 120px);
+    background-image: url('../../img/tep-aueb2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-title {
+    width: 50%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.gap-bottom {
+    margin-bottom: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 150px;
+    background-color: #762124;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 0 10px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social > span {
+    margin-right: 10px;
+}
+
+.social-text {
+    color: blue;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+

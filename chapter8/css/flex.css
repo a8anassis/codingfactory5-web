@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+}
+
+
+.border-dark {
+    border: 1px solid black;
+    /* border-radius: 15%; */
+}
+
+.container > div:first-child {
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px; */
+
+    flex: 0 0 100px;
+}
+
+.flex-item-2 {
+    flex: 1 0 500px;
+}
+
+.flex-item-3 {
+    flex: 0 1 1000px;
+}
+
+div[class^="flex-"] {
+    border: 1px solid red;
+}
+

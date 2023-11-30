@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+}
+
+p, li {
+    color: white;
+    background-color: brown;
+}
+
+li {
+    list-style-type: square;
+}

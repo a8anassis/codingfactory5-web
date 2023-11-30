@@ -1,0 +1,29 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+ul a {
+    color: black;
+}
+
+ul > li {
+    border: 1px solid black;
+}
+
+ul > li:first-child {
+    color: red;
+}
+
+ul > li:not(:first-child) {
+    list-style-type: square;
+}
+
+h1 + p {
+    font-size: 22px;
+}
+
+img ~ h1 {
+    font-size: 3rem;
+}
+

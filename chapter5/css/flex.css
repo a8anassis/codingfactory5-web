@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    /* flex-wrap: wrap; */
+}
+
+div[class^="box"] {
+    width: 50px;
+    height: 100px;
+    margin: 0 10px;
+    color: white;
+    background-color: rgb(57, 145, 115);
+    font-size: 3rem;
+    /* flex: 1; */
+}
+
+
+.box1, .box3 {
+    flex: initial;
+}
+
+.box2 {
+    /* order: 5; */
+    /* align-self: flex-start; */
+    flex: 1;
+    
+}
+
+.box5 {
+    /* order: -1; */
+    /* align-self: flex-end; */
+}

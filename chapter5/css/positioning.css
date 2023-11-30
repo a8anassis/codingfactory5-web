@@ -1,0 +1,57 @@
+.container {
+    /* position: relative; */
+    width: 600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 109, 109);
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.box1, .box2, .box3 {
+    border: 1px solid black;
+    padding: 60px;
+}
+
+.box1 {
+    background-color: bisque;
+}
+
+.box2 {
+    background-color: brown;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.item-relative {
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.item-fixed {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+}
+
+.item-sticky {
+    position: sticky;
+    top: 40px;
+}
+
+.z-front {
+    z-index: 1;
+}

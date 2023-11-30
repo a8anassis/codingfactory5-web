@@ -1,0 +1,11 @@
+.lastname > span::after {
+    content: '\1F600';
+}
+
+.firstname > span::before {
+    content: '\1F604';
+}
+
+span {
+    border: 1px solid black;
+}
