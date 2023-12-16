@@ -1,0 +1,17 @@
+.row {
+  min-height: 10rem;
+  margin-top: 1rem;
+  background-color: #97a6bd;
+}
+
+.col {
+  padding: 10px 15px;
+  background-color: #b5e0af;
+  border: 1px solid black;
+}
+
+[class^=col-] {
+  padding: 10px 15px;
+  background-color: #526843;
+  border: 1px solid black;
+}
