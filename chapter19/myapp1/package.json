@@ -1,0 +1,21 @@
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "my app is reading file ....",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "key1",
+    "key2"
+  ],
+  "author": "markos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "csv-file-to-json": "^4.0.5"
+  }
+}
