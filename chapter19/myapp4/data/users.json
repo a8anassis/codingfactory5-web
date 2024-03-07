@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Elvis",
+      "surname": "Presley",
+      "mail": "elvis@aueb.gr",
+      "sex": "male"
+    },
+    {
+      "name": "Bob",
+      "surname": "Dylan",
+      "mail": "bob@aueb.gr",
+      "sex": "male"
+    }
+  ]
+}
