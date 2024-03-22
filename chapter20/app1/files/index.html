@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">  
+  <link rel="stylesheet" href="./assets/css/style.css">  
+
+  <title>Users and Products App</title>
+</head>
+<body>
+  <!-- menu -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container-lg">
+      <a class="navbar-brand me-auto" href="./index.html">myEshop</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Χρήστες
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./user/create.html">Δημιουργία</a></li>
+              <li><a class="dropdown-item" href="./user/find.html">Εμφάνιση</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Προϊόντα
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Δημιουργία</a></li>
+              <li><a class="dropdown-item" href="#">Εμφάνιση</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Αγορά προϊόντων 
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Στατιστικά
+            </a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Είσοδος</a>
+          </li>
+        </ul>  
+
+      </div>
+    </div>
+  </nav>
+
+  <!---header--->
+  <header class="container-fluid">       
+    <div class="container-lg text-center text-white py-5">
+      <h1 class="fw-bold pt-5 pb-4">Καλωσήρθατε στο eshop myEshop</h1>
+      <!-- <p class="fw-bold lead">Το νησί μοιάζει να έχει να προσφέρει τα πάντα, από μία πανέμορφη Χώρα, άπειρες παραλίες και δρόμους που "φωνάζουν" ιστορία, μέχρι και μουσικό πολιτισμό, ιδιαίτερες γαστρονομικές γεύσεις και πολύ φιλόξενους ανθρώπους</p> -->
+    </div>
+  </header>  
+
+  <!--main -->
+  <div class="container-fluid main">
+    <div class="container-lg">
+      <h3 class="text-center pb-3">Τι είναι το eshop; (<a href="https://el.wikipedia.org/wiki/%CE%97%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AC_%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1" target="_blank">wikipedia</a>)</h1>
+      <p class="fs-5">
+        <strong>Ηλεκτρονικό κατάστημα (e-shop)</strong> είναι ο όρος που χρησιμοποιείται για να αναφερθεί κάποιος σε ένα Διαδικτυακό τόπο (site) μέσω του οποίου πραγματοποιούνται πωλήσεις διαφόρων ειδών. Ορισμένες πλατφόρμες δημοπρασιών προσφέρουν και συστήματα ηλεκτρονικών καταστημάτων.
+      </p>
+      <p class="fs-5">
+        Η Επανάσταση της Πληροφορικής άλλαξε σημαντικά τον τρόπο ζωής των πολιτών, επιφέροντας μια σειρά αλλαγών, που επηρεάζουν και τις εμπορικές επιχειρήσεις. Αυτές οι αλλαγές μπορούν να αποτελέσουν σημαντικό όπλο στα χέρια των επιχειρήσεων που θέλουν να ανταποκριθούν στις απαιτήσεις ενός νέου περιβάλλοντος που χαρακτηρίζεται από συνεχώς μεταβαλλόμενες συνθήκες, διεθνοποίηση και εντατικοποίηση του ανταγωνισμού, κ.α. Οι επιχειρήσεις που θα "επιβιώσουν" στον ανταγωνισμό είναι αυτές που στον παρόντα χρόνο θα κάνουν τις στρατηγικές επιλογές για την ενσωμάτωση των νέων τεχνολογιών στις πρακτικές τους. Παλαιότερα, η ενσωμάτωση αυτή περιλάμβανε μόνο την ηλεκτρονική παρουσίαση των καταστημάτων, όχι όμως και όλων των ειδών τους και, πολύ περισσότερο, δεν υπήρχε δυνατότητα άμεσης παραγγελίας κάποιου είδους.
+      </p>  
+      <p class="fs-5">
+        Το ηλεκτρονικό επιχειρείν (E-Business) αναφέρεται στην πραγματοποίηση επιχειρηματικών συναλλαγών μέσω του Internet και είναι η προσαρμογή του κλασικού επιχειρηματικού μοντέλου στην νέα ηλεκτρονική πραγματικότητα ή την ανάπτυξη νέου επιχειρηματικού μοντέλου με αντικείμενο μόνο το Διαδίκτυο.
+      </p>
+      <p class="fs-5">
+        Όπως χαρακτηριστικά έχει πει ο Μπιλ Γκέιτς: "Το Διαδίκτυο δεν είναι απλώς άλλο ένα κανάλι πωλήσεων. Θα μετασχηματίσει την επιχείρησή σας. Η μελλοντική επιχείρηση θα λειτουργεί με ένα ψηφιακό νευρικό σύστημα". Με λίγα λόγια: Πωλήσεις σε οποιονδήποτε, οπουδήποτε, οποτεδήποτε.
+      </p>
+    </div> 
+ </div>
+
+  <!--line-->
+  <div class="container-lg col-4 line ">
+    <hr>
+  </div>
+
+  <!-- album -->
+  <div class="container-fluid album">
+    <div class="container-lg">
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card mb-5">
+            <img class="card-img" src="./assets/images/pc.jpg" alt="Υπολογιστές">
+            <div class="card-img-overlay">
+              <h4 class="card-title"><a href="#" class="card-link text-white">Υπολογιστές</a></h4>
+            </div>
+          </div>
+        </div>    
+
+        <div class="col-sm-4">
+          <div class="card mb-5">
+             <img class="card-img" src="./assets/images/mobile.jpg" alt="Κινητά">
+            <div class="card-img-overlay">
+              <h4 class="card-title"><a href="#" class="card-link text-white">Κινητά</a></h4>
+            </div>
+          </div>
+        </div>        
+
+        <div class="col-sm-4">
+          <div class="card">
+             <img class="card-img" src="./assets/images/pc-accessories.jpg" alt="Περιφερειακά">
+            <div class="card-img-overlay">
+              <h4 class="card-title"><a href="#" class="card-link text-white">Περιφερειακά</a></h4>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+  </div>
+</div>
+
+<!--footer--> 
+<footer class="container-fluid">
+
+    <div class="container-lg py-5">
+
+      <div class="row">
+
+        <div class="col-sm-12 text-center text-white"> 
+            <p>Copyright &copy; myEshop. All rights reserved, 2023</p>
+        </div>
+
+        <div class="col-sm-12 text-center text-white fs-5"> 
+          <p>myEshop: Προϊόντα τεχνολογίας σε τιμές ευκαιρίας</p>
+        </div>
+
+        <div class="col-sm-12 text-center text-white social">                                
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div> 
+
+      </div>
+
+    </div>
+  </footer> 
+
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>

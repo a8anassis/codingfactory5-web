@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../assets/css/style.css">  
+
+  <title>Users and Products App</title>
+</head>
+<body>
+   <!-- menu -->
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container-lg">
+      <a class="navbar-brand me-auto" href="../index.html">myEshop</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Χρήστες
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./create.html">Δημιουργία</a></li>
+              <li><a class="dropdown-item" href="./find.html">Εμφάνιση</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Προϊόντα
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Δημιουργία</a></li>
+              <li><a class="dropdown-item" href="#">Εμφάνιση</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Αγορά προϊόντων 
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Στατιστικά
+            </a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Είσοδος</a>
+          </li>
+        </ul>  
+
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <table class="table table-striped table-hover caption-top w-auto" id="userTable">
+          <caption>List of users</caption>
+          <thead>
+              <tr>
+                <th>Username</th>
+                <th>Όνομα</th>
+                <th>Επίθετο</th>
+                <th>Email</th>
+                <th>Διεύθυνση</th>
+                <th>Τηλέφωνο</th>
+              </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+  crossorigin="anonymous">
+  </script>
+
+  <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous">
+  </script> 
+
+  <script src="../assets/js/user.scripts.js"></script>
+
+</body>
+</html>
