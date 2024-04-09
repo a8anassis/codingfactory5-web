@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }))
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger');

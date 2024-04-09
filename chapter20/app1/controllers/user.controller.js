@@ -36,7 +36,10 @@ exports.create = async(req, res) => {
     name: req.body.name,
     surname: req.body.surname,
     email: req.body.email,
-    address: req.body.address,
+    address: {
+        area: req.body.area,
+        road: req.body.road
+    },
     phone: req.body.phone,
     products: req.body.products
   });

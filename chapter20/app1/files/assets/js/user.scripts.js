@@ -37,13 +37,12 @@ $(document).ready(function(){
       'road': road
     }
 
-    console.log($('.btnSubmit').val(), item);
+    console.log(">>>>>", item);
     $.ajax({
       url: "http://localhost:3000/api/users",
-      type: "post",
+      type: "POST",
       data: item,
-      dataType: "JSON",
-      // encode: true,
+      dataType: "JSON"
     })
     .done( function(response) {
       // console.log(">>", response);
@@ -73,7 +72,7 @@ function createTbody(data){
 
   $("#userTable > tbody").empty();
 
-  // console.log("CreateTBody", data);
+//   console.log("CreateTBody", data);
   const len = data.length;
   for (let i=0; i<len; i++){
     let username = data[i].username;
